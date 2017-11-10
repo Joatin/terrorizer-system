@@ -5,9 +5,11 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lerna": "^2.5.1",
@@ -24,6 +26,7 @@
     "transform": {
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testRegex": ".*\\.specs\\.ts$"
+    "testRegex": ".*\\.specs\\.ts$",
+    "collectCoverageFrom" : ["**/*.{ts}", "!**/node_modules/**", "!node_modules/**", "!**/dist/**"]
   }
 }

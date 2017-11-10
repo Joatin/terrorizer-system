@@ -10,4 +10,4 @@ install:
   - yarn
   - yarn run bootstrap
 
-script: lerna run test
+script: yarn test:ci
