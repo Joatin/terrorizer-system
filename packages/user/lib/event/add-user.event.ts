@@ -1,7 +1,6 @@
 
 
 export interface AddUserEvent {
-  id: string;
+  __typename: "ADD_USER",
   externalUserId: string;
-
 }
