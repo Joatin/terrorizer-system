@@ -1,7 +1,12 @@
 {
   "name": "terrorizer-system-user",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1"
   }
 }
