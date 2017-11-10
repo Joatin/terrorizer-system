@@ -6,15 +6,7 @@ matrix:
   fast_finish: true
 cache: yarn
 
-before_install:
-  - yarn global add lerna
-
 install:
-  - lerna bootstrap
+  - yarn run bootstrap
 
 script: lerna run test
-deploy:
-  - provider: script
-    script: lerna publish --canary --yes
-    on:
-      branch: master

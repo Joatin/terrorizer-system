@@ -1,6 +1,7 @@
 {
   "name": "terrorizer-system-user",
   "main": "dist/index.js",
+  "private": true,
   "author": "Joatin Granlund <granlundjoatin@icloud.com",
   "license": "MIT",
   "typings": "dist/index",

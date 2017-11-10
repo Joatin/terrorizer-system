@@ -1,6 +1,7 @@
 {
   "name": "terrorizer-system-serverless",
   "main": "handler.js",
+  "private": true,
   "author": "Joatin Granlund <granlundjoatin@icloud.com",
   "license": "MIT",
   "scripts": {
