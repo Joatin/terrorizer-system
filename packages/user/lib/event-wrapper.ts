@@ -1,9 +1,9 @@
 
 
 export interface EventWrapper<T extends { __typename: string }> {
-  eventNumber: string;
+  eventNumber: number;
   aggregateId: string;
   data: T;
-  createdAt: string;
+  createdAt: Date;
   createdBy: string;
 }
