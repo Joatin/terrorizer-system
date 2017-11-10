@@ -1,6 +1,8 @@
 {
   "name": "terrorizer-system-territory",
   "main": "index.js",
+  "author": "Joatin Granlund <granlundjoatin@icloud.com",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   }

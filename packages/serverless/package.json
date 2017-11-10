@@ -1,6 +1,8 @@
 {
   "name": "terrorizer-system-serverless",
   "main": "handler.js",
+  "author": "Joatin Granlund <granlundjoatin@icloud.com",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
@@ -9,10 +11,5 @@
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",
     "webpack": "^3.6.0"
-  },
-  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
-  "license": "MIT",
-  "dependencies": {
-    "terrorizer-system-user": "^undefined"
   }
 }

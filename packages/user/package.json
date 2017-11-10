@@ -1,6 +1,8 @@
 {
   "name": "terrorizer-system-user",
   "main": "dist/index.js",
+  "author": "Joatin Granlund <granlundjoatin@icloud.com",
+  "license": "MIT",
   "typings": "dist/index",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
