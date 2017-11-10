@@ -1,6 +1,7 @@
 {
   "name": "terrorizer-system-user",
   "main": "dist/index.js",
+  "version": "0.0.0",
   "private": true,
   "author": "Joatin Granlund <granlundjoatin@icloud.com",
   "license": "MIT",
@@ -10,6 +11,7 @@
     "prepublish": "tsc"
   },
   "devDependencies": {
+    "@types/jest": "^21.1.5",
     "typescript": "^2.6.1"
   }
 }
