@@ -1,0 +1,7 @@
+{
+  "name": "terrorizer-system-territory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  }
+}

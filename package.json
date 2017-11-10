@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/Joatin/terrorizer-system.git",
+  "author": "Joatin Granlund <granlundjoatin@icloud.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^2.5.1"
+  }
+}
