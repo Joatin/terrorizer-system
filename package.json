@@ -7,13 +7,15 @@
     "bootstrap": "lerna bootstrap",
     "test": "jest",
     "test:ci": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "start": "cd packages/graphql-lambda && yarn start"
+    "start": "cd packages/graphql-lambda && yarn start",
+    "deploy:ci": "sls deploy"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lerna": "^2.5.1",
+    "serverless": "^1.24.1",
     "ts-jest": "^21.2.1",
     "tslint": "^5.8.0",
     "typescript": "^2.6.1"
@@ -28,6 +30,11 @@
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": ".*\\.specs\\.ts$",
-    "collectCoverageFrom" : ["**/*.{ts}", "!**/node_modules/**", "!node_modules/**", "!**/dist/**"]
+    "collectCoverageFrom": [
+      "**/*.{ts}",
+      "!**/node_modules/**",
+      "!node_modules/**",
+      "!**/dist/**"
+    ]
   }
 }
