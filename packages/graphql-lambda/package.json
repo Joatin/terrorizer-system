@@ -1,0 +1,28 @@
+{
+  "name": "terrorizer-system-graphql-lambda",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Joatin Granlund <granlundjoatin@icloud.com",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"no test specified\"",
+    "start": "serverless offline start"
+  },
+  "devDependencies": {
+    "@types/zen-observable": "^0.5.3",
+    "serverless": "^1.24.1",
+    "serverless-offline": "^3.16.0",
+    "serverless-webpack": "^3.0.0",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0",
+    "webpack-node-externals": "^1.6.0",
+    "aws-lambda": "^0.1.2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "apollo-link": "^1.0.0",
+    "apollo-server-lambda": "^1.2.0",
+    "graphql-tools": "^2.7.2"
+  }
+}
